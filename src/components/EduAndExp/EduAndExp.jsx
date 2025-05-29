@@ -26,7 +26,7 @@ const eduAndExp = [
 const EduAndExp = ({text, title}) => {
   return (
     <div className='eduAndExp-container' id='eduAndExp'>
-      <img src="/assets/img/design.svg" alt="" className='design right'/>
+      <img src="assets/img/design.svg" alt="" className='design right'/>
       <div className="head">
         <p className='text-head'>{text}</p>
         <h1 className='title-head'>{title}</h1>
@@ -42,7 +42,7 @@ const EduAndExp = ({text, title}) => {
         </div>
       ))}
       </div>
-      <img src="/assets/img/design.svg" alt="" className='design left'/>
+      <img src="assets/img/design.svg" alt="" className='design left'/>
     </div>
   )
 }

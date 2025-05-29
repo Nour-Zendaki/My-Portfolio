@@ -8,7 +8,7 @@ import './Platform.Css'
 const Platform = ({icon}) => {
     const projectItems = [
         {
-          image : "/assets/img/EduPress-Project.png",
+          image : "assets/img/EduPress-Project.png",
           title : "EduPress Platform",
           date : "27-10-2024",
           desc: "This website was developed as an online platform to present training courses in a well-organized and visually appealing manner, using HTML and CSS to ensure a responsive and user-friendly design. It offers a smooth user experience, allowing visitors to browse courses, view detailed information, and register effortlessly. The design is fully flexible and responsive, providing an optimal browsing experience across all device types.",
@@ -30,7 +30,7 @@ const Platform = ({icon}) => {
     ]
         },
         {
-          image : "/assets/img/Flora-Project.png",
+          image : "assets/img/Flora-Project.png",
           title : "FloraHouses",
           date : "13-11-2024",
           desc: "This website was developed as a modern digital platform dedicated to showcasing and selling real estate properties in a clear and organized way. It allows users to explore a wide selection of luxury apartments and homes, with advanced search options based on location, price, and property type. The design features a clean and user-friendly interface, visually highlighting trending properties and the best real estate deals. The site also includes a simple step-by-step guide to help users understand the booking process easily. Built using HTML and CSS, the website ensures a fully responsive experience across all devices, whether on smartphones, tablets, or desktops.",
@@ -52,7 +52,7 @@ const Platform = ({icon}) => {
     ]
         },
         {
-          image : "/assets/img/K2Skiing-Project.png",
+          image : "assets/img/K2Skiing-Project.png",
           title : "K2Skiing",
           date : "26-9-2024",
           desc: "This is a single-page website dedicated to skiing and ski trips. It features a clean layout that showcases popular ski destinations, trip details, and highlights of winter adventures. The design focuses on clarity and ease of navigation, making it ideal for presenting seasonal travel offers.",
@@ -74,7 +74,7 @@ const Platform = ({icon}) => {
     ]
         },
         {
-          image : "/assets/img/severalTools-Project.png",
+          image : "assets/img/severalTools-Project.png",
           title : "severalTools Project",
           date : "20-11-2024",
           desc: "This website features an interactive user interface built with HTML, CSS, and JavaScript. It includes multiple dynamic functions such as dark/light mode toggle, text color and size customization, text positioning, a dropdown menu, and product display. These features enhance the browsing experience by allowing users to personalize the page and explore content more effectively.",
@@ -96,7 +96,7 @@ const Platform = ({icon}) => {
     ]
         },
         {
-          image : "/assets/img/Evaluation-Project.png",
+          image : "assets/img/Evaluation-Project.png",
           title : "Evaluation Project",
           date : "25-2-2025",
           desc: "This website features an interactive user interface built with HTML, CSS, and JavaScript. It includes multiple dynamic functions such as dark/light mode toggle, text color and size customization, text positioning, a dropdown menu, and product display. These features enhance the browsing experience by allowing users to personalize the page and explore content more effectively.",
@@ -118,7 +118,7 @@ const Platform = ({icon}) => {
     ]
         },
         {
-          image : "/assets/img/ShoesShoppingProject.png",
+          image : "assets/img/ShoesShoppingProject.png",
           title : "ShoesShopping Project",
           date : "22-12-2024",
           desc: "This is an online shoe store website designed with interactive features using JavaScript. Users can browse a variety of shoes, add items to the shopping cart, remove them, and search for specific products. The interface is clean and user-friendly, making the shopping experience smooth and efficient.",
@@ -140,7 +140,7 @@ const Platform = ({icon}) => {
     ]
         },
         {
-          image : "/assets/img/DashBoard-Project.png",
+          image : "assets/img/DashBoard-Project.png",
           title : "DashBoard Project",
           date : "18-3-2025",
           desc: "This is a dashboard web application designed with interactive features using JavaScript and API integration. Users can browse, create, update, and delete data records through a simple interface. The layout is clean and easy to use, enabling efficient management of information and smooth user experience.",
@@ -162,7 +162,7 @@ const Platform = ({icon}) => {
     ]
         },
         {
-          image : "/assets/img/Travel-Project.png",
+          image : "assets/img/Travel-Project.png",
           title : "Travel Project",
           date : "18-3-2025",
           desc: "This is a multi-page authentication website that includes four main pages: Login, Sign Up, Password Reset, and Verification Code Entry. Users can create new accounts, log in to their existing ones, reset forgotten passwords, and enter verification codes sent to their email or phone. The interface is clear and user-friendly, providing a smooth and secure experience throughout the authentication process.",

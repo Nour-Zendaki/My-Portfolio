@@ -7,7 +7,7 @@ const Hero = ({personalPhoto, lines, layout, myImageCircle, squers, span, title 
       <div className="container">
         <h1><span>{span}</span>{title}</h1>
         <p className='describtion'>{describtion}</p>
-        <a href="/assets/files/NourAlhudaZendakiCV.pdf" download><Button className="hero-btn"  btn="Download Cv" /></a>
+        <a href="assets/files/NourAlhudaZendakiCV.pdf" download><Button className="hero-btn"  btn="Download Cv" /></a>
       </div>
       <div className="layout">{layout}</div>
       <div className="images">

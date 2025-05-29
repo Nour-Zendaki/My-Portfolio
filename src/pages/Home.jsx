@@ -43,12 +43,12 @@ const Home = () => {
     
     return (
         <>
-          <section id="hero" ref={heroRef}><Hero personalPhoto="" lines="/assets/img/hero-lines.svg" layout="" myImageCircle="/assets/img/myImageCircle.png" squers="/assets/img/squers.svg" span="HEY!" title=" I’m Nour, Frontend Developer" describtion="Agency-quality Webflow websites with the personal touch of a freelancer."/></section>
+          <section id="hero" ref={heroRef}><Hero personalPhoto="" lines="assets/img/hero-lines.svg" layout="" myImageCircle="assets/img/myImageCircle.png" squers="assets/img/squers.svg" span="HEY!" title=" I’m Nour, Frontend Developer" describtion="Agency-quality Webflow websites with the personal touch of a freelancer."/></section>
           <DividerBetSec />
-          <section id="about"><AboutMe progLang="/assets/img/progLang.png" title="About Me " description="I’m Nour Alhuda Zendaki, a Front-End Developer in training with hands-on experience gained through a development program at VICA. I specialize in building responsive web interfaces and writing clean, efficient code." /></section>
+          <section id="about"><AboutMe progLang="assets/img/progLang.png" title="About Me " description="I’m Nour Alhuda Zendaki, a Front-End Developer in training with hands-on experience gained through a development program at VICA. I specialize in building responsive web interfaces and writing clean, efficient code." /></section>
           <section ref={eduSectionRef} id='eduAndExp'><EduAndExp text="Education and Experience" title="Education & Experience" /></section>
           <ArrowBack targetRef={eduSectionRef} scrollToRef={heroRef}/>
-          <TryMe image="/assets/img/layer.png" title="Try me out, risk free!" description="If you’re not happy with the design after the first draft,I’ll refund your deposit, " span="no questions asked" />
+          <TryMe image="assets/img/layer.png" title="Try me out, risk free!" description="If you’re not happy with the design after the first draft,I’ll refund your deposit, " span="no questions asked" />
           <LatestProject id='projects' subTitle="Portfolio" title="My Creative Works Latest " span="Projects"  />
           <section id="contact"><Contact subTitle="Contact" title="Let’s Discuss Your " span="Project" /></section>
           <Footer rights="@ 2025. All Rights Reserved" develop="Develpoment by Nour" />
