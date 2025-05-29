@@ -33,7 +33,7 @@ This site is built using HTML, CSS, JavaScript, and React. I aimed for a balance
 
 Contact
 
-Email: nour.dev90@gmail.com
+Email: nour.nour.nr2004@gmail.com
 
 Phone: +963944544103
 
