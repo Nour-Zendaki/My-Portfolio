@@ -1,0 +1,110 @@
+.contact-container{
+    margin: 0 70px;
+    .secHead{
+        .title{
+            max-width: 551px;
+            .subTitle{
+                color: #7DE0EA;
+                font-size: 20px;
+                font-weight: 500;
+            }
+            .mainTitle{
+                font-size: 40px;
+                font-weight: 600;
+                .span{
+                    color: #7DE0EA;
+                }
+            }
+        }
+    }
+    .information{
+        margin-top: 56px;
+        display: flex;
+        justify-content: space-between;
+        gap: 60px;
+        .my-communication{
+            max-width: 387px;
+            list-style: none;
+            display: flex;
+            flex-direction: column;
+            gap: 24px;
+            .info{
+                margin: 24px 0;
+                display: flex;
+                align-items: center;
+                gap: 20px;
+                .communi-icon{
+                    padding: 14px 16px;
+                    background-color: #7DE0EA;
+                    border-radius: 8px;
+                    svg{
+                        width: 31px;
+                        height: 28px;
+                        color: #FFFFFF;
+                    }
+                }
+                .details{
+                    font-family: "Inter", sans-serif;
+                    .communi-name{
+                        margin-bottom: 10px;
+                        color: #92929D;
+                    }
+                    .communi-content{
+                        font-weight: 500;
+                        word-break: break-word;
+                    }
+                }
+            }
+        }
+        .fill-form{
+            display: flex;
+            flex-direction: column;
+            gap: 30px;
+            .sameStyleBoxes{
+                width: 376px;
+            }
+            .boxes{
+                font-family: "Inter", sans-serif;
+                padding: 16px 27px;
+                border-radius: 8px;
+                border: 0.3px solid #BEC0BF;
+                outline-color: #7DE0EA;
+                background: bottom;
+            }
+            .name{
+                margin-right: 27px;
+            }
+            .number{
+                padding: 16px;
+            }
+            .contact-btn{
+                font-family: "Inter", sans-serif;
+                background-color: #7DE0EA;
+                color: #FFFFFF;
+                font-size: 14px;
+                font-weight: 500;
+                cursor: pointer;
+            }
+        }
+    }
+}
+
+@media screen and (max-width : 992px){
+    .contact-container{
+        margin: 0 30px;
+        .information{
+            flex-direction: column;
+            .my-communication{
+                gap: 0;
+            }
+            .fill-form{
+                .sameStyleBoxes{
+                    width: 100%;
+                }
+                .name{
+                    margin-bottom: 24px;
+                }
+            }
+        }
+    }
+}

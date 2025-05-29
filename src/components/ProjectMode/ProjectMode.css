@@ -1,0 +1,13 @@
+.mode-btn{
+    background: none;
+    cursor: pointer;
+    border: none;
+    display: flex;
+    justify-content: center;
+    svg{
+        width: 30px;
+        height: 30px;
+        color: #1D2130;
+    }
+}
+

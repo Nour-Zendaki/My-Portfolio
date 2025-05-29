@@ -1,0 +1,56 @@
+.latestProject-container{
+    margin: 94px 70px;
+    .secHead{
+        display: flex;
+        justify-content: space-between;
+        align-items: end;
+        .title{
+            max-width: 381px;
+            .subTitle{
+                color: #7DE0EA;
+                font-size: 20px;
+                font-weight: 500;
+            }
+            .mainTitle{
+                font-size: 40px;
+                font-weight: 600;
+                .span{
+                    color: #7DE0EA;
+                }
+            }
+        }
+        .githubBtn{
+            background-color: #7DE0EA;
+            color: #fff;
+            gap: 3px;
+            .arrowBtn{
+                width: 18px;
+                height: 18px;
+            }
+        }
+        .githubBtn:hover{
+            gap: 10px;
+            transition: all 0.5s ease;
+        }
+    }
+    .card-container{
+        display: grid;
+        grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+        justify-content: space-between;
+        gap: 58px;
+    }
+}
+
+@media screen and (max-width : 992px) {
+    .latestProject-container{
+        margin: 47px 30px;
+        .secHead{
+            flex-direction: column;
+            align-items: center;
+            gap: 20px;
+        }
+        .card-container{
+            grid-template-columns: 1fr;
+        }
+    }
+}

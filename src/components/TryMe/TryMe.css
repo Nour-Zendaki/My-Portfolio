@@ -1,0 +1,74 @@
+html{
+    scroll-behavior: smooth;
+}
+.tryMe-container{
+    margin: 120px 70px;
+    padding: 120px 136px;
+    background-image: url(/public/assets/img/layer.png);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    color: #FFFFFF;
+    .content{
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        gap: 166px;
+        .text{
+            max-width: 589px;
+            .title{
+                font-size: 48px;
+            }
+            .desc{
+                margin-top: 9px;
+                font-size: 20px;
+                .span{
+                    font-weight: 700;
+                }
+            }
+        }
+    }
+}
+.contact-btn{
+    font-size: 14px;
+    color: #FFFFFF;
+    background-color: #7DE0EA;
+    .arrow-icon{
+        width: 16px;
+        height: 16px;
+    }
+}
+.contact-btn:hover{
+    gap: 20px;
+    transition: all 0.5s ease;
+}
+
+@media screen and (max-width : 992px) {
+    .tryMe-container{
+        margin: 40px 30px;
+        padding: 0;
+        .content{
+            padding: 50px 20px;
+            text-align: center;
+            flex-direction: column;
+            gap: 60px;
+        }
+    }
+}
+
+@media screen and (max-width : 445px) {
+    .tryMe-container{
+        .content{
+            padding: 30px 5px;
+            gap: 30px;
+            .text{
+                .title{
+                    font-size: 32px;
+                }
+                .desc{
+                    font-size: 13px;
+                }
+            }
+        }
+    }
+}

@@ -1,0 +1,79 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "Poppins", sans-serif;
+}
+
+body.light {
+    background-color: #fdfdfe;
+    color: #323f4d;
+    transition: all 0.5s ease;
+}
+body.dark {
+    background-color: #323f4d;
+    color: #fdfdfe;
+    transition: all 0.5s ease;
+    nav{
+        color: #fdfdfe;
+        ul{
+            li{
+                a{
+                    color: #fdfdfe;
+                }
+            }
+        }
+        .listAndMode{
+            .sideList {
+                svg {
+                    color: #fdfdfe;
+                }
+            }
+            .mode-btn{
+                svg{
+                    color: #fdfdfe;
+                }
+            }
+        }
+    }
+    .hero{
+        .layout{
+            background: radial-gradient(circle at center, #9BFFA5, #AED3FF, #727a8f, #D798E1, #CACFFA);
+        }
+    }
+    .dashedLine {
+        width: 100%;
+        border-top: 1px dashed #fdfdfe;
+        border-image: repeating-linear-gradient(to right, #fdfdfe 0, #fdfdfe 4px, transparent 4px, transparent 10px);
+        border-image-slice: 1;
+    }
+    .dotBorder {
+        border: 1px solid #fdfdfe;
+    }
+    .eduAndExp-container {
+        & .exp-Section {
+            .paragraph {
+                border-left: 2px dashed #fdfdfe;
+                .paragraph-margin {
+                    border: 2px dashed #fdfdfe;
+                }
+                .parag-title {
+                    color: #fdfdfe;
+                }
+            }
+        }
+    }
+    .card-container {
+        & .card {
+            .desc-container {
+                color: #fdfdfe;
+            }
+        }
+    }
+    .platformContainer{
+        color: #fdfdfe;
+    }
+    .footer {
+        color: #fdfdfe;
+    }
+}

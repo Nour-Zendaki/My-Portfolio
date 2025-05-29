@@ -1,0 +1,77 @@
+.bestProjects-container{
+    margin: 0 70px;
+    .secHead{
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        .title{
+            max-width: 381px;
+            .subTitle{
+                color: #7DE0EA;
+                font-size: 20px;
+                font-weight: 500;
+            }
+            .mainTitle{
+                font-size: 40px;
+                font-weight: 600;
+                .span{
+                    color: #7DE0EA;
+                }
+            }
+        }
+        .slider-btns{
+            width: 80px;
+            display: flex;
+            justify-content: space-between;
+            gap: 8px;
+            .slider-btn{
+                display: flex;
+                align-items: center;
+                background: none;
+                border: 1px solid #7DE0EA;
+                border-radius: 100px;
+                cursor: pointer;
+                .desten-icon{
+                    color: #A6A6A6;
+                    margin: 10px;
+                }
+            }
+            .slider-btn:hover{
+                background-color: #7DE0EA;
+                .desten-icon{
+                    color: #fff;
+                }
+            }
+        }
+    }
+    .card-container{
+        width: 100%;
+        overflow: hidden;
+        position: relative;
+        .slide-track{
+            display: flex;
+            align-items: stretch;
+            justify-content: space-between;
+            gap: 60px;
+            transition: all 0.6s ease-in-out;
+        }
+    }
+}
+
+
+
+@media screen and (max-width : 992px) {
+    .bestProjects-container{
+        margin: 0 30px;
+        .secHead{
+            flex-direction: column;
+            gap: 30px;
+        }
+        .slider.card-container{
+            flex-direction: column;
+        }
+    }
+    .card-size{
+        max-width: 362px;
+    }
+}

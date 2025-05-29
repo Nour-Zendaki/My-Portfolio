@@ -1,0 +1,100 @@
+.hero {
+    height: 100vh;
+    padding: 94px 70px 0;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    position: relative;
+    .container{
+        h1{
+            max-width: 641px;
+            font-size: 55px;
+            span{
+                font-weight: 400;
+            }
+        }
+        .describtion{
+            max-width: 370px;
+            padding: 8px 0 30px;
+            font-size: 18px;
+            color: #43495B;
+        }
+        .hero-btn {
+            color: #1D2130;
+            background-color: #FFFFFF99;
+        }
+    }
+    .layout {
+        width: 503px;
+        height: 378px;
+        filter: blur(100px);
+        position: absolute;
+        top: 272px;
+        z-index: -1;
+        border-radius: 50%;
+        backdrop-filter: blur(5px);
+        background: radial-gradient(circle at center, #9BFFA5, #AED3FF, #C9D4EF, #D798E1, #CACFFA);
+    }
+    .myImageCircle{
+        padding-right: 12px;
+    }
+    .squers{
+        position: absolute;
+        top: 162px;
+        right: 70px;
+    }
+    .personalPhoto{
+        max-height: 444px;
+        position: absolute;
+        top: 130px;
+        right: 111px;
+    }
+    .lines{
+        width: 100%;
+        position: absolute;
+        top: 191px;
+        left: -30px;
+        z-index: -1;
+    }
+}
+
+@media screen and (max-width : 992px){
+    .hero{
+        padding: 100px 30px 40px;
+        flex-direction: column;
+        .container{
+            h1 {
+                font-size: 45px;
+            }
+        }
+        .squers{
+            display: none;
+        }
+        .layout{
+            width: 100%;
+            top: 150px;
+        }
+        .myImageCircle{
+            display: none;
+        }
+        .personalPhoto{
+            max-height: 400px;
+            top: 150px;
+            right: 0;
+        }
+        .lines{
+            display: none;
+        }
+    }
+}
+
+@media screen and (max-width : 660px){
+    .hero{
+        height: 911px;
+        .personalPhoto{
+            width: 100%;
+            position: static;
+            margin-top: 20px;
+        }
+    }
+}

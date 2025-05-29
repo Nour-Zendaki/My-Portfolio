@@ -1,0 +1,113 @@
+nav {
+    width: 90%;
+    margin: 40px 70px 54px;
+    padding: 5px 10px;
+    border-radius: 5px;
+    position: relative;
+    background-color: rgba(223, 225, 250, 0.25);
+    backdrop-filter: blur(10px);
+    box-shadow: 0 4px 8px #0000001A;
+    color: #1D2130;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    position: fixed;
+    z-index: 1000;
+    ul {
+        width: 50%;
+        display: flex;
+        justify-content: space-between;
+        gap: 24px;
+        list-style: none;
+        transition: all 0.5s ease;
+        li {
+            cursor: pointer;
+            margin: 6px 0;
+            a{
+                font-weight: 500;
+                text-decoration: none;
+                color: #1D2130;
+            }
+            a:hover {
+                color: #7DE0EA;
+            }
+            a.active{
+                color: #7DE0EA !important;
+            }
+        }
+    }
+    .listAndMode{
+        display: flex;
+        gap: 20px;
+        align-items: center;
+        justify-content: space-between;
+        .sideList{
+            font-size: 25px;
+            background: none;
+            border: none;
+            cursor: pointer;
+            display: none;
+            svg{
+                stroke-width: 1px;
+                color: #1D2130;
+            }
+        }
+    }
+}
+section{
+    scroll-margin-top: 54px;
+}
+html{
+    scroll-behavior: smooth;
+}
+
+@media screen and (max-width : 992px) {
+    nav {
+        margin: 20px 30px 27px;
+        position: fixed;
+        ul{
+            gap: 0;
+        }
+        .nav-list{
+            min-width: 50%;
+            text-align: center;
+            background-color: #15161c99;
+            position: fixed;
+            top: calc(100% + 10px);
+            right: 20px;
+            border-radius: 5px;
+            box-shadow: 0 4px 10px rgba(0, 0, 0, 59%);
+            transform-origin: top right;
+            z-index: 1000;
+            opacity: 0;
+            visibility: hidden;
+            transition: all 1s ease;
+            display: none !important;
+            li{
+                padding: 20px;
+                a{
+                    color: #fff;
+                }
+            }
+            li:hover{
+                background: rgba(255, 255, 255, 0.05);
+            }
+        }
+        .nav-list.active{
+            display: block !important;
+            opacity: 1;
+            visibility: visible;
+        }
+        .listAndMode{
+            .sideList{
+                display: block;
+            }
+        }
+    }
+}
+
+@media screen and (max-width : 400px){
+    nav{
+        width: 80%;
+    }
+}
